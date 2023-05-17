@@ -1,0 +1,73 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f3f3f4;
+  margin: 0px;
+}
+
+div {
+  display: block;
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80);
+  background-size: cover;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 40px;
+  color: #f3f3f4;
+}
+
+.banner p {
+  font-size: 25px;
+  color: #f3f3f4;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.link-medium {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: #f2eae4;
+  padding: 3px 0px;
+  color: #1c2321;
+}
+
+.link-medium:hover {
+  background-color: #d9c5b2;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
